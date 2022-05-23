@@ -1,0 +1,110 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.left-container {
+	position: fixed;
+	width: 400px;
+	height: 100vh;
+	background-color: #5F9EA0;
+}
+
+.photo-contact {
+	position: absolute;
+	text-align: center;
+	margin: 100px 100px;
+}
+
+.photo {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+}
+
+.button {
+	width: 200px;
+	border-radius: 14px;
+	background-color: white;
+	margin-bottom: 14px;
+	font-size: 1.2rem;
+	font-weight: bold;
+	padding: 10px;
+
+}
+
+.button:hover {
+	background-color: black;
+	color: white;
+	transition: 1s;
+}
+
+.right-container {
+	position: absolute;
+	left: 400px;
+}
+
+.top-bar {
+	padding-top: 50px;
+	padding-left: 100px;
+}
+
+.titlecv {
+	
+	font-size: 200%;
+	font-family: 'Smooch', cursive;
+}
+
+.list-menu {
+	float: right; 
+	padding-right: 50px;
+}
+
+.menu {
+	font-size: 1.1rem;
+	padding: 0 10px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+#profile {
+	padding-top: 100px;
+	padding-left: 100px;
+}
+
+#about {
+	padding-top: 100px;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+#experience {
+	padding-top: 100px;
+	padding-left: 100px;
+}
+
+#achievment {
+	padding-top: 200px;
+	padding-left: 100px;
+}
+
+#contact {
+	padding-top: 100px;
+	padding-left: 100px;
+}
+
+.tebal {
+	font-weight: bold;
+}
+
+#footer {
+	padding-top: 100px;
+	text-align: center;
+}
+
+p, li {
+	line-height: 200%;
+}
